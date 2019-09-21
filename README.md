@@ -3,7 +3,7 @@ Adding parallax images to universal dashboard "bring the bling"
 There is a demo.ps1 file located in this repository which contains the following:-
 
 Import-Module -Name UniversalDashboard.Community
-Import-Module "C:\UD\para\UDParallax\src\output\UniversalDashboard.UDParallax\UniversalDashboard.UDParallax.psd1" -Force
+Import-Module -Name UniversalDashboard.UDParallax
 Get-UDDashboard | Stop-UDDashboard
 Start-UDDashboard -Port 10005 -Dashboard (
     New-UDDashboard -Title "Powershell UniversalDashboard" -Content {
